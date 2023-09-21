@@ -8,6 +8,11 @@ from urllib.parse import parse_qsl, urlparse
 
 class WebRequestHandler(BaseHTTPRequestHandler):
 
+# TODO
+# Unit tests
+# Thorough input validation
+# Granular error handling
+    
 # Set of API calls
 # curl -s -X POST 'http://0.0.0.0:8080/floor/5/call'
 # curl -s -X POST 'http://0.0.0.0:8080/elevator/goto/5'
